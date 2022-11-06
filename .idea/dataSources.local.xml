@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-213.6777.52">
+    <data-source name="Spartan" uuid="74bf7de3-adb6-495d-b003-044aee1d97ed">
+      <database-info product="Oracle" version="Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production" jdbc-version="4.3" driver-name="Oracle JDBC driver" driver-version="21.5.0.0.0" dbms="ORACLE" exact-version="11.2.0.2.0" exact-driver-version="21.5">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>SP</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="PUBLIC" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <introspection-level>3</introspection-level>
+    </data-source>
+    <data-source name="HR" uuid="6e692319-900f-407b-8a4c-bbb5e04b6ebe">
+      <database-info product="Oracle" version="Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production" jdbc-version="4.3" driver-name="Oracle JDBC driver" driver-version="21.5.0.0.0" dbms="ORACLE" exact-version="11.2.0.2.0" exact-driver-version="21.5">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>hr</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="PUBLIC" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <introspection-level>3</introspection-level>
+    </data-source>
+  </component>
+</project>
